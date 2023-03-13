@@ -27,3 +27,4 @@ README
 19. [A to Z](./19-AZ) : A script that replaces all characters `A` and `C` from input to `Z` and `E` respectively.
 20. [Without C, you would live in hiago](./20-hiago) : A script that removes all letters `c` and `C` from input.
 21. [esreveR](./21-reverse) : A script that reverse its input.
+22. [DJ Cut Killer](./22-users_and_homes) : A scipt that displays all users and their home directories, sorted by users, based on the `/etc/passwd` file.
