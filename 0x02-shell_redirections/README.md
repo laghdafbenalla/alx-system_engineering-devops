@@ -24,3 +24,4 @@ README
 17. [I hate bins](./17-hidethisword) : A script that displays all the lines in the file `/etc/passwd` that do not contain the pattern `"bin"`.
 18. [Letters only please](./18-letteronly) : A script that displays all lines of the file `/ect/ssh/sshd_config` starting with a letter, including capital letters as well.
  - This also works : `grep ^[[:alpha:]] /etc/ssh/sshd_config`
+19. [A to Z](./19-AZ) : A script that replaces all characters `A` and `C` from input to `Z` and `E` respectively.
