@@ -15,3 +15,6 @@ README
 11. [Don't just count your directories, make your directories count](./11-directories) : A script that counts the number of directories and sub-directories in the current directory.\n- The current and present directories should not be taken into account.\n- Hidden directories should be counted.\n- **Solution:** `mindepth 1` ; To exclude root directory\n- **Others:** `maxdepth 1` ; To avoid parsing sub directories. (*you may need this in future.*)
 12. [Whats new](./12-newest_files) : A script that prints the 10 newest files in the current directory.
 - The output should be; one file per line and sorted from the newest to the oldest.
+13. [Being unique is better than being perfect](./13-unique) : A script that takes a list of words as input and prints only words that appear exactly once.
+- Input and Output format is; `One word per line`.
+- Words should be sorted. (use this [list](./list) as your input to see if the challenge will work.) `cat list | ./13-unique`
