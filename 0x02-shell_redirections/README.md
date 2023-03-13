@@ -9,3 +9,4 @@ README
 6. [Line #2](./6-third_line) : A script that displays the third line of the file `iacta`.
 - The file `iacta` will be in the working directory and you are not allowed to use `sed`.
 7. [It is a good file that cuts iron without making a noise](./7-file) : A script that creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line.\n- For this challenge, remember to use a single backslash `\` to escape special characters and double backslash `\\` to escape the backslash itself.
+8. [Save current state of directory](./8-cwd_state) : A script that writes into the file \`ls_cwd_content\` the result of the command \`ls -la\`. If the file \`ls_cwd_content\` already exists, it should be overwritten. If the file \`ls_cwd_content\`does not exist, create it.
