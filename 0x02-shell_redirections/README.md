@@ -13,3 +13,5 @@ README
 9. [Duplicate last line](./9-duplicate_last_line) : A script that duplicates the last line of the file `iacta`.
 10. [No more javascript](./10-no_more_js) : A script that deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders.
 11. [Don't just count your directories, make your directories count](./11-directories) : A script that counts the number of directories and sub-directories in the current directory.\n- The current and present directories should not be taken into account.\n- Hidden directories should be counted.\n- **Solution:** `mindepth 1` ; To exclude root directory\n- **Others:** `maxdepth 1` ; To avoid parsing sub directories. (*you may need this in future.*)
+12. [Whats new](./12-newest_files) : A script that prints the 10 newest files in the current directory.
+- The output should be; one file per line and sorted from the newest to the oldest.
