@@ -4,7 +4,6 @@ hot articles for a given subreddit
 """
 import requests
 
-
 def recurse(subreddit, hot_list=[], after=None):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) Apple' +

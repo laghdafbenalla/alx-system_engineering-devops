@@ -6,7 +6,6 @@ Javascript should count as javascript, but java should not).
 import requests
 import operator
 
-
 def count_words(subreddit, word_list=[], word_dict={}, after=None):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) Apple' +

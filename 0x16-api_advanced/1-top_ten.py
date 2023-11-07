@@ -4,7 +4,6 @@ listed for a given subreddit.
 """
 import requests
 
-
 def top_ten(subreddit):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) Apple' +
